@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar styles  */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.navbar-logo{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .4rem;
+}
+.navbar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+.navbar-link li{
+    list-style: none;
+    padding: 15px;
+}
+.navbar-link li a{
+    text-decoration: none;
+    color: white;    
+    font-size: 18px;
+}
+.navbar-link li a:hover{
+    color: red;
+}
